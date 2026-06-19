@@ -2,4 +2,7 @@
 // 方案 A：把安装包放到本页面同级的 downloads 文件夹，保持下面这个相对地址。
 // 方案 B：换成腾讯云 COS/对象存储直链，要求免登录、无广告、点击即下载。
 window.LOCALMIND_DOWNLOAD_URL =
-"https://github.com/evan12139/LocalMind/releases/download/v1.0.0/LocalMind-1.0.0-setup.exe";
+"https://github.com/evan12139/localMind/releases/latest/download/LocalMind-1.0.0-setup.exe";
+
+window.LOCALMIND_BACKUP_DOWNLOAD_URL =
+"https://ghproxy.com/https://github.com/evan12139/localMind/releases/latest/download/LocalMind-1.0.0-setup.exe";
